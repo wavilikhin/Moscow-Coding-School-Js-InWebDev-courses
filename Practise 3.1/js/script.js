@@ -10,7 +10,7 @@ J.innerHTML = Person;
 
 let Portrait = prompt('Введите адрес картинки');
 let DefaultPicture = document.querySelector('img');
-DefaultPicture.setAttribute('src', 'Portrait');
+DefaultPicture.setAttribute('src', Portrait);
 
 let Text = prompt('Введите текст страницы');
 let Bio = document.querySelector('.shortBio');

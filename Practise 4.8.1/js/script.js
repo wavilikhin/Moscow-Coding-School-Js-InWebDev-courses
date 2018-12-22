@@ -13,5 +13,5 @@ let Summ = (Money, Apples, Loafs, Apple, Loaf) => {
 		//console.log('У вас недостаточно денег');
 	//}
 }
-console.log(Summ());
+console.log(Summ(Money, Apples, Loafs, Apple, Loaf));
 
