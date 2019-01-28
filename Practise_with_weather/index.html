@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta description="forecast">
+	<title>Today's forecast</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+	<header>
+	Today's weather forecast
+    </header>
+	<main>
+		<!-- City search button -->
+		<div class="citySearch">
+			<form action="">
+				<label for="addCity">Add your city:</label>
+				<input type="text" id="desiredCity" name="addCity" placeholder="Prague">
+				<input type="submit" id="searchCity">
+			</form>
+		</div>
+		<!-- First 4 cities -->
+	<div class="firstLine">
+		<div class="City" id="Moscow">
+			<h1 id="MoscowHeader"></h1>
+			<h2 id="MoscowTemp"></h2>
+			<div id="MoscowTemperatureDiagramm"></div>
+			<h2 id="MoscowPressure"></h2>
+			<div id="MoscowPressureDiagramm"></div>
+			<h2 id="MoscowWind"></h2>
+			<div id="MoscowWindDiagramm"></div>
+		</div>
+		<div class="City" id="London">
+			<h1 id="LondonHeader"></h1>
+			<h2 id="LondonTemp"></h2>
+			<div id="LondonTemperatureDiagramm"></div>
+			<h2 id="LondonPressure"></h2>
+			<div id="LondonPressureDiagramm"></div>
+			<h2 id="LondonWind"></h2>
+			<div id="LondonWindDiagramm"></div>
+		</div>
+		<div class="City" id="Berlin">
+			<h1 id="BerlinHeader"></h1>
+			<h2 id="BerlinTemp"></h2>
+			<div id="BerlinTemperatureDiagramm"></div>
+			<h2 id="BerlinPressure"></h2>
+			<div id="BerlinPressureDiagramm"></div>
+			<h2 id="BerlinWind"></h2>
+			<div id="BerlinWindDiagramm"></div>
+		</div>
+		<div class="City" id="Pekin">
+			<h1 id="PekinHeader"></h1>
+			<h2 id="PekinTemp"></h2>
+			<div id="PekinTemperatureDiagramm"></div>
+			<h2 id="PekinPressure"></h2>
+			<div id="PekinPressureDiagramm"></div>
+			<h2 id="PekinWind"></h2>
+			<div id="PekinWindDiagramm"></div>
+		</div>
+	</div>
+	    <!-- Second 4 cities -->
+		<div class="secondLine">
+		  <div class="City" id="inputCity1">
+			<h1 id="inputCity1Header"></h1>
+			<h2 id="inputCity1Temp"></h2>
+			<div id="inputCity1TemperatureDiagramm"></div>
+			<h2 id="inputCity1Pressure"></h2>
+			<div id="inputCity1PressureDiagramm"></div>
+			<h2 id="inputCity1Wind"></h2>
+			<div id="inputCity1WindDiagramm"></div>
+		  </div>
+		  <div class="City" id="inputCity2">
+			<h1 id="inputCity2Header"></h1>
+			<h2 id="inputCity2Temp"></h2>
+			<div id="inputCity2TemperatureDiagramm"></div>
+			<h2 id="inputCity2Pressure"></h2>
+			<div id="inputCity2PressureDiagramm"></div>
+			<h2 id="inputCity2Wind"></h2>
+			<div id="inputCity2WindDiagramm"></div>
+		  </div>
+		  <div class="City" id="inputCity3">
+			<h1 id="inputCity3Header"></h1>
+			<h2 id="inputCity3Temp"></h2>
+			<div id="inputCity3TemperatureDiagramm"></div>
+			<h2 id="inputCity3Pressure"></h2>
+			<div id="inputCity3PressureDiagramm"></div>
+			<h2 id="inputCity3Wind"></h2>
+			<div id="inputCity3WindDiagramm"></div>
+		  </div>
+		  <div class="City" id="inputCity4">
+			<h1 id="inputCity4Header"></h1>
+			<h2 id="inputCity4Temp"></h2>
+			<div id="inputCity4TemperatureDiagramm"></div>
+			<h2 id="inputCity4Pressure"></h2>
+			<div id="inputCity4PressureDiagramm"></div>
+			<h2 id="inputCity4Wind"></h2>
+			<div id="inputCity4WindDiagramm"></div>
+		  </div>
+	    </div>
+	</main>
+	<!-- Copyright footer -->
+	<footer>
+		<p>COPYRIGHT 2019</p>
+		<p>Data gathered from <a href="https://openweathermap.org/">Open Weather Map</a></p>
+	</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

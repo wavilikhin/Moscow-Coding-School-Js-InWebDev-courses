@@ -37,9 +37,9 @@ pOne.innerHTML = crypto[0]['price'];
 pTwo.innerHTML = crypto[1]['price'];
 pThree.innerHTML = crypto[2]['price'];  
 
-dOne.style.width = wOne;
-dTwo.style.width = wTwo;
-dThree.style.width = wThree;
+dOne.style.width = wOne + 'px';
+dTwo.style.width = wTwo + 'px';
+dThree.style.width = wThree + 'px';
 
 
 
